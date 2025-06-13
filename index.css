@@ -1,0 +1,64 @@
+body {
+ background: linear-gradient(
+  to bottom right,
+  rgba(8, 163, 214, 0.551),   /* أزرق سماوي فاتح */
+  rgba(255, 228, 225, 0.2)    /* وردي خفيف */
+);
+
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+
+
+.cv-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #111827;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  color: #2563eb;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li::before {
+  content: '✅ ';
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #128C7E;
+  font-weight: bold;
+}
+
+.whatsapp-icon {
+  vertical-align: middle;
+  margin-left: 5px;
+}
